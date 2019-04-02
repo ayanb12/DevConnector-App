@@ -20,7 +20,7 @@ router.get('/test', (req, res) => res.json({
 	msg: "Users Works"
 }));
 
-// GET api/users/register, public route
+// POST api/users/register, public route
 router.post('/register', (req, res) => {
 	const {
 		errors,
